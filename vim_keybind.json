@@ -1,14 +1,14 @@
 {
-  "title": "Fn + hjkl to Arrow Keys Vim",
+  "title": "Right Command + hjkl to Arrow Keys Vim",
   "rules": [
     {
-      "description": "Fn + hjkl to arrow keys Vim",
+      "description": "Right Command + hjkl to arrow keys Vim",
       "manipulators": [
         {
           "from": {
             "key_code": "h",
             "modifiers": {
-              "mandatory": ["fn"],
+              "mandatory": ["righjt_command"],
               "optional": ["any"]
             }
           },
@@ -23,7 +23,7 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["fn"],
+              "mandatory": ["righjt_command"],
               "optional": ["any"]
             }
           },
@@ -38,7 +38,7 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["fn"],
+              "mandatory": ["righjt_command"],
               "optional": ["any"]
             }
           },
@@ -53,7 +53,7 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "mandatory": ["fn"],
+              "mandatory": ["righjt_command"],
               "optional": ["any"]
             }
           },
